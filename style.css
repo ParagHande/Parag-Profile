@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
 
 :root {
-    --primary-color: blue;
-    --off-white: #D1D5DB;
-    --dark-gray: #4B5563;
+    --primary-color: rgb(00, 00, 00);
+    --off-white: #636363;
+    --dark-gray: #212121;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-
+    background-color: rgb(60, 60, 60);
 }
 
 hr {
@@ -23,12 +23,22 @@ hr {
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
 
 }
-
-.container-centre {
+.container-centre{
     max-width: 600px;
     margin: auto;
+}
+.showcase-list{
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 2rem auto;
+    max-width: 600px;
+    text-align: justify ;
+    
+
 }
 
 /* links */
@@ -36,6 +46,7 @@ hr {
 .link {     
     text-decoration: none;
     padding: 0.5rem 1rem;
+    
 
 }
 
@@ -43,6 +54,7 @@ hr {
     background-color: var(--primary-color);
     border-radius: .5rem;
     color: white;
+    
 }
 
 .secondary-link {
@@ -53,11 +65,14 @@ hr {
 
 .list-non-bullet {
     list-style: none;
+    text-align: center;
+    padding-inline-start: 0px;  
 }
 
 .list-inline {
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 1rem;
+    
 }
 
 .navigation {
@@ -91,6 +106,7 @@ hr {
 }
 
 .hero .hero-img {
+    width: 100%;
     max-width: 350px;
     display: block;
     margin: auto;
@@ -127,7 +143,6 @@ footer {
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
 }
 
 .footer .footer-header{
@@ -144,3 +159,8 @@ footer {
     padding-inline-start: 0px;
 }
 
+.familiar{
+text-align: center;
+padding-inline-start: 0px;  
+
+}
