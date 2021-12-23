@@ -81,11 +81,14 @@ hr {
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
+
+
 }
 
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
+    
 }
 
 .navigation .nav-pills {
@@ -163,4 +166,8 @@ footer {
 text-align: center;
 padding-inline-start: 0px;  
 
+}
+
+.gif{
+    width: 100%;
 }
