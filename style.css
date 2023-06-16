@@ -9,6 +9,7 @@
 body {
     font-family: Serif ;
     background-color: rgb(60, 60, 60);
+    font-size: x-large;
 }
 
 hr {
@@ -25,10 +26,11 @@ hr {
     padding-right: 1rem;
     padding-bottom: 2rem;
     padding-top: 1rem;
+    
 
 }
 .container-centre{
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
 }
 .showcase-list{
@@ -173,9 +175,11 @@ padding-inline-start: 0px;
 }
 
 .gallery {
-    margin: 5px;
-    border: 2px solid #ccc;
-    width: 180px;
+    margin: auto;
+    /* border: 2px solid #ccc; */
+   width: 180px;
+   /* float: left; */
+    /* display: grid; */
   }
   
 .gallery:hover {
@@ -187,4 +191,19 @@ padding-inline-start: 0px;
     height:100%;
     height: auto;
   }
+  * {
+    box-sizing: border-box;
+  }
   
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+  }
